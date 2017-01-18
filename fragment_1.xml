@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#00FFFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Add Grocery List Items"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/editText4"
+        android:hint="Quantity" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:id="@+id/button" />
+</LinearLayout>

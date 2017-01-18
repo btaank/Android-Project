@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/grocerylist_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bharti.myapplication.Fragment2">
+
+    <TextView
+        android:text="Name"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_weight="1"/>
+    <TextView
+        android:text="Quantity"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="BOUGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+
+
+</LinearLayout>
